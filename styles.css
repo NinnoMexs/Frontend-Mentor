@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+*{
+    max-width: 100%;
+}
+body{
+    background-color: rgb(237, 223, 203);
+}
+ main{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 5em;
+ }
+ article{
+    width: 650px;
+    padding: 30px;
+    margin: 0 auto;
+ }
+.recipePage{
+    font-family: "Outfit", sans-serif;
+    color: hsl(25, 5%, 18%);
+}
+strong{
+    color: hsl(27, 5%, 22%);
+}
+h1, h2{
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+}
+h1{
+    font-size: 2.2rem;
+    line-height: 2.1rem;
+}
+h2, ol li::marker, ul li::marker{
+    color: hsl(14, 45%, 36%);
+}
+h3{
+    color: hsl(336, 77%, 30%)
+}
+
+
+ol li::marker{
+    font-weight: 800;
+}
+img{
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.preparation{
+    background-color: hsl(330,100%, 98%);
+    border-radius: 12px;
+    padding: 0.1em 1em;
+}
+
+ol li{
+    margin-bottom: 1em;
+    padding-left: 1.5rem;
+}
+ul li{
+    padding-left: 1.5rem;
+    margin-bottom: 0.6rem;
+}
+.ingredients, .instructions, .nutrition{
+    color:hsl(14 45% 36%);
+}
+.sec-1, .sec-2 {
+    border-bottom: 1px solid rgb(206, 201, 201);
+    padding-bottom: 1rem;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td{
+    padding: 10px;
+}
+td:nth-child(2){
+    font-weight: bold;
+    color:hsl(14 45% 36%) ;
+}
+tr{
+    border-bottom: 1px solid rgb(206, 201, 201);
+
+}
+tr:last-child{
+    border-bottom: none;
+}
+
+@media(max-width:600px){
+    
+*{
+    box-sizing: border-box;
+}
+  body{
+    background-color: white;
+  }
+  main{
+    /* background-color: blue; */
+    border-radius: 0;
+    padding: 0;
+    margin-top: 0;
+ }
+ article{
+    padding: 0;
+    margin-top: 0;
+ }
+ img{
+    border-radius: 0;
+    width: 100%;
+    margin-left: 0;
+ }
+ .media{
+    padding: 15px;
+ }
+ ol li{
+    margin-bottom: 1em;
+    padding-left: 1rem;
+}
+ul li{
+    padding-left: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+}
